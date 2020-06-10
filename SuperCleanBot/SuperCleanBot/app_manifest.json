@@ -1,0 +1,40 @@
+﻿{
+  "SchemaVersion": 1,
+  "Name": "SuperCleanBot",
+  "ComponentId": "5862cd1b-be52-409c-85fa-0379f5a791aa",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Adc": [
+      "$AVNET_MT3620_SK_ADC_CONTROLLER0"
+    ],
+    "Gpio": [
+      "$AVNET_MT3620_SK_APP_STATUS_LED_YELLOW",
+      "$AVNET_MT3620_SK_WLAN_STATUS_LED_YELLOW",
+      "$AVNET_MT3620_SK_USER_LED_RED",
+      "$AVNET_MT3620_SK_USER_LED_GREEN",
+      "$AVNET_MT3620_SK_USER_LED_BLUE",
+      "$AVNET_MT3620_SK_USER_BUTTON_A",
+      "$AVNET_MT3620_SK_USER_BUTTON_B",
+      "$AVNET_MT3620_SK_GPIO0",
+      "$AVNET_MT3620_SK_GPIO2",
+      "$AVNET_MT3620_SK_GPIO16",
+      "$AVNET_MT3620_SK_GPIO17",
+      "$AVNET_MT3620_SK_GPIO26",
+      "$AVNET_MT3620_SK_GPIO28",
+      "$AVNET_MT3620_SK_GPIO29",
+      "$AVNET_MT3620_SK_GPIO31",
+      "$AVNET_MT3620_SK_GPIO32",
+      "$AVNET_MT3620_SK_GPIO33",
+      "$AVNET_MT3620_SK_GPIO34",
+      "$AVNET_MT3620_SK_GPIO1",
+      "$AVNET_MT3620_SK_GPIO35"
+
+    ],
+    "Uart": [],
+    "I2cMaster": [ "$AVNET_MT3620_SK_ISU2_I2C" ],
+    "WifiConfig": true,
+    "AllowedApplicationConnections": []
+  },
+  "ApplicationType": "Default"
+}
