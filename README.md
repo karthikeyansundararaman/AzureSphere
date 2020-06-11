@@ -44,7 +44,7 @@ To enable AutoMode – Press User Button A & Button B together. Sanitizing proce
 
 
 Conclusion:
-Thought its still a work in progress, many finetuning is required in the areas of algorithms, offloading the sensor workload to M4 processors, connecting to cloud and provisioning remote sideloading. Will keep you updated.
+Though its still a work in progress, many fine tuning is required in the areas of algorithm, offloading the sensor workload to M4 processors, connecting to cloud and provisioning remote sideloading. Will keep you updated.
 
 
 
