@@ -1,6 +1,8 @@
 # AzureSphere
 AzureSphere powered SUPER CLEANING BOT
 
+Blog Reference: https://www.element14.com/community/groups/azuresphere/blog/2020/06/11/azuresphere-powered-super-clean-bot-floor-sanitizing-bot
+
 Problem Statement
 
 The Main objective of this project is to evaluate Avnet Azure Sphere MT3620 development kit by utilizing most of its available GPIOs/I2C terminals without using an another slave board like Arduino, etc., for mounting sensors or for handling motor drivers. This thought of mine also favours a super access to  features like (i) Defense in depth (ii) Deployment flexibility (iii) OTA updates (iv) Automatic security updates as well-documented by the Manufacturer. Hence a 100% compatibility towards over-the-air update in the form of cloud deployment by making the board talk with Azure Cloud Platform ensures easy update from a remote location. An unique feature of Azure sphere complying with richest security standards in the industry is also a critical requirement for the prevailing security concerns around IoT deployments. To support my thought of developing AzureSphere-Only Master Board- based project, a BOT is proposed capable of performing floor sanitizing using UV LEDs by sensing the objects around with its Ultrasonic sensors. Its named “SUPER CLEAN BOT” and let me craft its storyboard now. 
